@@ -7,7 +7,7 @@ public enum PropertiesUtilsByEnum {
 //	private int num1,num2,num3;
 	
 	USER("userService","userDao"),
-	grade("gradeService","gradeDao"),
+	SUBJECT("subjectService","subjectDao"),
 	GRADE("gradeService","gradeDao");
 	@Getter
 	private String dao,service;
